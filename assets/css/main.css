@@ -2158,6 +2158,7 @@
 		font-size: 0.9em;
 		font-weight: 300;
 		margin: 0 0 1em 0;
+        font-family: 'Audiowide', cursive;
 	}
 
 	input[type="text"],
@@ -2182,6 +2183,7 @@
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+        font-family: 'Audiowide', cursive;
 	}
 
 		input[type="text"]:invalid,
@@ -2247,6 +2249,7 @@
 	select option {
 		background-color: #1c1d26;
 		color: #ffffff;
+        font-family: 'Audiowide', cursive;
 	}
 
 	select:focus::-ms-value {
@@ -3959,6 +3962,7 @@
 			input[type="button"],
 			.button {
 				padding: 0;
+                font-family: 'Audiowide', cursive;
 			}
 
 		/* Spotlight */
