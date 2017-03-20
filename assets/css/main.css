@@ -17,6 +17,7 @@
 		font: inherit;
 		vertical-align: baseline;
         font-family: 'Audiowide', cursive;
+        z-index: 10;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2466,7 +2467,7 @@
 			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
-			z-index: 1;
+			z-index: 10;
 		}
 
 		.image img {
@@ -3378,7 +3379,7 @@
 			position: relative;
 			text-align: right;
 			vertical-align: middle;
-			z-index: 1;
+			z-index: 21;
 		}
 
 			#banner .content header {
@@ -4168,3 +4169,18 @@ time {
     border-color: transparent #272727 transparent transparent;
   }
 }
+
+video 
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+   transition: 1s opacity;
+}
+
