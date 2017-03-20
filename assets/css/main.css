@@ -4169,7 +4169,12 @@ time {
   }
 }
 
-.video {
-    align-content: center;
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
 }
-
